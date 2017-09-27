@@ -1,1 +1,1 @@
-<?php include_once ("mla_personal_site/index.html");?>
+<?php include_once ("index.html");?>
