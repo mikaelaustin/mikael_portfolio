@@ -1,0 +1,99 @@
+.background_color {
+	background: #ADDFFF;
+}
+.rounded-circle {
+	transform: rotate(-90deg);
+}
+#contact{
+	color:#ADDFFF;
+}
+#contact .star-primary{
+	color:#ADDFFF;
+}
+#contact hr.star-primary{
+	border-color: #ADDFFF !important;
+}
+#contact hr.star-primary:after{
+	color: #ADDFFF !important;
+	background-color: white !important;
+}
+
+
+#about .star-light:after{
+	background-color:#F778A1 !important;
+}
+#about{
+	background-color:#F778A1;
+}
+.intro-text{
+	padding-top:50px;
+}
+#portfolio {
+	color:#ADDFFF
+}
+#portfolio .star-primary{
+	color: #ADDFFF;
+}
+#portfolio hr.star-primary{
+	border-color: #ADDFFF !important;
+	}
+#portfolio hr.star{
+	color: #ADDFFF !important;
+}
+#portfolio hr.star-primary:after{
+	color: #ADDFFF !important;
+	background-color: white !important;
+}
+
+#interests{
+	color:#F778A1;
+}
+.carousel{
+        background: #F778A1;
+        margin-top: 20px;
+        text-align:center;
+        border:1px solid black;
+        text-align: center;
+        
+        
+    }
+    .carousel .item{
+       min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+   
+    }
+    .carousel .item img{
+        margin: 0 auto; /* Align slide image horizontally center */
+        height:500px;
+       
+    }
+    .container{
+        margin: 20px;
+        text-align:center;
+
+    }
+ h4{
+ 	color: black;
+ 	font-size:40px;
+ 	outline-color: 2px white;
+  
+ }
+   
+   .img-responsive{
+   	margin:0 auto;
+   	text-align: center;
+   	vertical-align:middle;
+   
+
+   }
+   #myCarousel{
+   	margin-left:auto;
+   	margin-right:auto;
+   	width: 100%;
+   	vertical-align:middle;
+   }
+
+video{
+  height:500px;
+}
+
+
