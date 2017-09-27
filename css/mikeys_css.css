@@ -4,6 +4,9 @@
 .rounded-circle {
 	transform: rotate(-90deg);
 }
+.name{
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important;
+}
 #contact{
 	color:#ADDFFF;
 }
@@ -48,15 +51,22 @@
 #interests{
 	color:#F778A1;
 }
+
+ol{
+  
+  width:30% !important;
+  left:20% !important;
+
+}
 .carousel{
         background: #F778A1;
         margin-top: 20px;
         text-align:center;
         border:1px solid black;
-        text-align: center;
-        
+        text-align: center;   
         
     }
+
     .carousel .item{
        min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
    
@@ -68,15 +78,24 @@
     }
     .container{
         margin: 20px;
-        text-align:center;
-
+        text-align:center; 
     }
- h4{
- 	color: black;
- 	font-size:40px;
- 	outline-color: 2px white;
-  
- }
+    h4{
+       text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black !important;
+       color:#08ABB8 !important;
+       font-family:times !important;
+       font-size:30px !important;
+    }
+
+
+.modal-content h2{
+  color:#F778A1 !important;
+}
+.btn .btn-success{
+  color:#F778A1 !important;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important;
+
+}
    
    .img-responsive{
    	margin:0 auto;
@@ -96,4 +115,25 @@ video{
   height:500px;
 }
 
+.navbar{
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important;
+}
+.skills{
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important;
+}
+#sendMessageButton{
+  background-color:#ADDFFF;
+  border-color: black;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important;
 
+}
+.modal-body{
+  color:#F778A1 !important;
+}
+
+.modal-content .btn {
+  background-color:#F778A1 !important;
+  border-color: black;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important;
+
+}
